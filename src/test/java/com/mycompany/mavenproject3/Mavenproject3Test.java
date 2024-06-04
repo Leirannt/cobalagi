@@ -1,10 +1,11 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
-package testing;
+package com.mycompany.mavenproject3;
 
-import com.mycompany.mavenproject3.Mavenproject3;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -12,7 +13,7 @@ import static org.junit.Assert.*;
  *
  * @author ariel
  */
-public class testSource {
+public class Mavenproject3Test {
     @Test
     public void testAdd() {
         Mavenproject3 calculator = new Mavenproject3();
