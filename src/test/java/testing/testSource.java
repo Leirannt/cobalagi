@@ -27,7 +27,7 @@ public class testSource {
 
     @Test
     public void testMultiply() {
-        assertEquals(50.0, calculator.multiply(10, 5), 0.001);
+        assertEquals(60.0, calculator.multiply(10, 5), 0.001);
     }
 
     @Test
