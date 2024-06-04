@@ -30,7 +30,7 @@ public class testSource {
     @Test
     public void testMultiply() {
         Mavenproject3 calculator = new Mavenproject3();
-        double result = calculator.multiply(2.0, 5.0);
+        double result = calculator.multiply(10.0, 5.0);
         assertEquals(10.0, result, 0.001);
     }
 
