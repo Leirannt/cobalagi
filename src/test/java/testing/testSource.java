@@ -17,7 +17,7 @@ public class testSource {
     
     @Test
     public void testAdd() {
-        assertEquals(15.0, calculator.add(10, 5), 0.001);
+        assertEquals(15.0, calculator.add(10, 4), 0.001);
     }
 
     @Test
