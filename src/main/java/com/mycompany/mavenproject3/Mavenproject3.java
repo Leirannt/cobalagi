@@ -37,7 +37,7 @@ public class Mavenproject3 {
         String name = scanner.nextLine();
         System.out.println("Selamat datang, " + name + "!");
              
-        // Meminta pengguna untuk memasukkan dua angka
+        // Meminta pengguna untuk memasukkan dua angka wajib angka
         System.out.print("Masukkan angka pertama: ");
         double num1 = scanner.nextDouble();
 
