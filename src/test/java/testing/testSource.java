@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
  * @author ariel
  */
 public class testSource {
-    private final Mavenproject3 calculator = new Mavenproject3();
+    Mavenproject3 calculator = new Mavenproject3();
     
     @Test
     public void testAdd() {
